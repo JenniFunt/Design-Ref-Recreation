@@ -1,0 +1,33 @@
+
+
+body{
+
+  color: #000;
+  background-color: #BEB2FF;
+  margin: 20vmin;
+  padding: 0px;
+  font-family: "Helvetica";
+  font-size: 10vmin;
+  text-align: center;
+
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.swissTextContainer {
+  background-color: #EEE;
+
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* color: #97A0E8; */
+}
+
+.cutoffBottom {
+  height: 9vmin;
+  overflow: hidden;
+}
+.cutoffTop {}
