@@ -3,11 +3,10 @@
 body{
 
   color: #000;
-  background-color: #BEB2FF;
+  background-color: #FFE38F;
   margin: 20vmin;
   padding: 0px;
-  font-family: "Helvetica";
-  font-size: 10vmin;
+
   text-align: center;
 
 }
@@ -17,17 +16,49 @@ h1 {
   margin: 0;
 }
 
-.swissTextContainer {
-  background-color: #EEE;
+.circle {
 
-  font-family: sans-serif;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: pink;
+  overflow: hidden;
+}
+.swissTextContainer {
+
+  background-color: #FFE38F;
+  font-family: "Helvetica Neue";
+  font-size: 10vmin;
+
   display: flex;
   flex-direction: column;
-  /* color: #97A0E8; */
+  color: black;
 }
 
 .cutoffBottom {
   height: 9vmin;
   overflow: hidden;
+  font-weight: lighter;
 }
-.cutoffTop {}
+.normalSwiss {
+  font-weight: lighter;
+}
+.cutoffTop {
+  height: 9vmin;
+  overflow: scroll;
+  font-weight: lighter;
+}
+
+.finalSwiss {
+  color: black;
+  font-weight: bolder;
+}
+
+.bottomcircle {
+
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: #92D7EB;
+  overflow: hidden;
+}
